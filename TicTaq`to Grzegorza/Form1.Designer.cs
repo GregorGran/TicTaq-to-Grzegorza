@@ -52,7 +52,7 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox1.Location = new Point(63, 62);
+            pictureBox1.Location = new Point(70, 70);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(200, 200);
             pictureBox1.TabIndex = 0;
@@ -63,7 +63,7 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox2.Location = new Point(407, 62);
+            pictureBox2.Location = new Point(442, 70);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(200, 200);
             pictureBox2.TabIndex = 1;
@@ -74,7 +74,7 @@
             // 
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox3.Location = new Point(768, 62);
+            pictureBox3.Location = new Point(818, 70);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(200, 200);
             pictureBox3.TabIndex = 2;
@@ -96,7 +96,7 @@
             // 
             pictureBox5.BackColor = Color.Transparent;
             pictureBox5.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox5.Location = new Point(442, 368);
+            pictureBox5.Location = new Point(442, 386);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(200, 200);
             pictureBox5.TabIndex = 4;
@@ -107,7 +107,7 @@
             // 
             pictureBox6.BackColor = Color.Transparent;
             pictureBox6.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox6.Location = new Point(755, 396);
+            pictureBox6.Location = new Point(818, 386);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(200, 200);
             pictureBox6.TabIndex = 5;
@@ -129,7 +129,7 @@
             // 
             pictureBox8.BackColor = Color.Transparent;
             pictureBox8.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox8.Location = new Point(427, 776);
+            pictureBox8.Location = new Point(442, 776);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(200, 200);
             pictureBox8.TabIndex = 7;
@@ -140,7 +140,7 @@
             // 
             pictureBox9.BackColor = Color.Transparent;
             pictureBox9.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox9.Location = new Point(818, 797);
+            pictureBox9.Location = new Point(818, 776);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(200, 200);
             pictureBox9.TabIndex = 8;
