@@ -37,6 +37,8 @@
             pictureBox7 = new PictureBox();
             pictureBox8 = new PictureBox();
             pictureBox9 = new PictureBox();
+            label1 = new Label();
+            textBox1 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -118,7 +120,7 @@
             // 
             pictureBox7.BackColor = Color.Transparent;
             pictureBox7.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox7.Location = new Point(76, 776);
+            pictureBox7.Location = new Point(63, 776);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(200, 200);
             pictureBox7.TabIndex = 6;
@@ -147,12 +149,31 @@
             pictureBox9.TabStop = false;
             pictureBox9.Click += pictureBox9_Click;
             // 
+            // label1
+            // 
+            label1.BackColor = Color.FromArgb(192, 255, 192);
+            label1.Location = new Point(63, 667);
+            label1.Name = "label1";
+            label1.Size = new Size(200, 31);
+            label1.TabIndex = 9;
+            label1.Text = "Grajta!";
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.FromArgb(192, 255, 192);
+            textBox1.Location = new Point(818, 667);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(200, 31);
+            textBox1.TabIndex = 10;
+            // 
             // tiqtacto
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Tictaqto;
             ClientSize = new Size(1133, 1144);
+            Controls.Add(textBox1);
+            Controls.Add(label1);
             Controls.Add(pictureBox9);
             Controls.Add(pictureBox8);
             Controls.Add(pictureBox7);
@@ -174,6 +195,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -187,5 +209,7 @@
         private PictureBox pictureBox7;
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
+        private Label label1;
+        private TextBox textBox1;
     }
 }
