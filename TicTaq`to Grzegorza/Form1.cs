@@ -3,7 +3,7 @@ namespace TicTaq_to_Grzegorza
     public partial class tiqtacto : Form
     {
         int playerturn = 1; // By default player 1 starts
-        private char[] board = new char[9];
+        public char[] board = new char[9];
         public tiqtacto()
         {
             InitializeComponent();
@@ -132,6 +132,19 @@ namespace TicTaq_to_Grzegorza
             {
                 pictureBox9.Image = Properties.Resources.taq;
                 playerturn = 1;
+            }
+        }
+        public void zwyciestwo()
+
+        {
+            if 
+            (pictureBox1.BackgroundImage == Properties.Resources.Tiq && pictureBox2.BackgroundImage == Properties.Resources.Tiq && pictureBox3.BackgroundImage == Properties.Resources.Tiq)
+            {
+                MessageBox.Show("Tiq Wygra³!");
+            }
+            else if (pictureBox1.BackgroundImage == Properties.Resources.Tiq && pictureBox2.BackgroundImage == Properties.Resources.Tiq && pictureBox3.BackgroundImage == Properties.Resources.Tiq)
+            {
+                MessageBox.Show("Tiq Wygra³!");
             }
         }
     }
