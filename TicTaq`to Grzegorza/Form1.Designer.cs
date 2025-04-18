@@ -154,7 +154,7 @@
             label1.BackColor = Color.FromArgb(192, 255, 192);
             label1.Location = new Point(63, 667);
             label1.Name = "label1";
-            label1.Size = new Size(200, 31);
+            label1.Size = new Size(579, 31);
             label1.TabIndex = 9;
             label1.Text = "Grajta!";
             // 

@@ -261,6 +261,11 @@ namespace TicTaq_to_Grzegorza
                 label1.Text = ("Taq Wygra³!");
                 textBox1.Text = ("Taq Wygra³!");
             }
+            else if (played == 9)
+            {
+                label1.Text = ("Bitwa nie rozstrzygniêta!");
+                textBox1.Text = ("Graj od nowa!");
+            }
         }
     }
 }
